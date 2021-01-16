@@ -1,2 +1,22 @@
 language: python
-script: true
+python:
+  - "3.6"
+
+sudo: required
+dist: trusty
+
+branches:
+  only:
+    - master
+    - dev
+
+script:
+  - make html
+
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: ${GH_TOKEN}
+  local_dir: build/html
+  on:
+    branch: master
