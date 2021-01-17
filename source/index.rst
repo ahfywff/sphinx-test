@@ -6,6 +6,8 @@
 Welcome to sphinx_test's documentation!
 =======================================
 
+sphinx_test
+
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
