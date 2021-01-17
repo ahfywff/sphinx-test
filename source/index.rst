@@ -12,6 +12,8 @@ sphinx_test
    :maxdepth: 2
    :caption: Contents:
 
+   markdown_test.md
+
 
 
 Indices and tables
