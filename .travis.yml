@@ -16,4 +16,4 @@ deploy:
   github_token: ${GH_TOKEN}
   local_dir: build/html
   on:
-    branch: master
+    branch: main
