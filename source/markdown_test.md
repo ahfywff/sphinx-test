@@ -8,3 +8,9 @@
 
 - List item 1
 - List item 2
+
+```java
+public static void main(String[] args) {
+    
+}
+```
